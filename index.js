@@ -1,5 +1,7 @@
+/* eslint-disable quotes */
 // @ts-check
 
-import half from './src/half.js';
+import half from "./src/half.js";
 
-export default half;
+const result = half(10);
+console.log(result);
