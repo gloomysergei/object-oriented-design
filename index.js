@@ -1,7 +1,6 @@
+/* eslint-disable no-shadow */
 /* eslint-disable quotes */
 // @ts-check
 
-import half from "./src/half.js";
-
-const result = half(10);
-console.log(result);
+const hasNumber = (text) => text.search(/\d/) !== -1;
+console.log(hasNumber("gh1jrjt12"));
